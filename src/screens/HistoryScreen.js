@@ -8,6 +8,7 @@ const HistoryScreen = () => {
   const { history, clearHistory, isLoading } = useContext(HistoryContext);
 
   const handleClear = () => {
+    
     Alert.alert('Confirm', 'Clear all history?', [
       { text: 'Cancel', style: 'cancel' },
       { text: 'OK', onPress: clearHistory },

@@ -11,6 +11,7 @@ const ToggleSwitch = ({ label, value, onValueChange }) => {
         trackColor={{ false: "#444", true: "#00FF88" }} // consistent neon green
         thumbColor={value ? "#1C1C1C" : "#f4f3f4"}
       />
+      
     </View>
   );
 };

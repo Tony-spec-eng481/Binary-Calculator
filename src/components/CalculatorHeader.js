@@ -27,6 +27,7 @@ const CalculatorHeader = ({ onHistory, onSettings, onInfo }) => {
   );
 };
 
+
 const styles = StyleSheet.create({
   safeArea: {
     backgroundColor: "#1E1E1E",

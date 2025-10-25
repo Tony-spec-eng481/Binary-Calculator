@@ -8,6 +8,7 @@ const InputField = ({ onPressDigit, onPressOperator, onEquals, onClear, allowHex
 
   return (
     <View style={styles.container}>
+      
       {/* Row of digits */}
       <View style={styles.row}>
         {["7", "8", "9"].map((d) => (
